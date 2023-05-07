@@ -73,6 +73,8 @@
 
       </div>
     </div>
+    <button onclick="window.location.href='/javaGuideWEB1_war/'; return false;"
+            class="btn btn-danger">Exit app</button>
   </div>
 
 </div>
