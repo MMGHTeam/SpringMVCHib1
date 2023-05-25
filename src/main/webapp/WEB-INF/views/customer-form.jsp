@@ -28,6 +28,7 @@
         <div class="panel panel-info">
             <div class="panel-heading">
                 <div class="panel-title">Add Customer</div>
+                <br>
             </div>
             <div class="panel-body">
                 <form:form action="saveCustomer" cssClass="form-horizontal"
@@ -62,6 +63,7 @@
                         <!-- Button -->
                         <div class="col-md-offset-3 col-md-9">
                             <form:button cssClass="btn btn-primary">Submit</form:button>
+                            <a href="<c:url value="/customer/list" />" class="btn btn-default">Return</a>
                         </div>
                     </div>
 
